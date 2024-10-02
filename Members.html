@@ -7,89 +7,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Document</title>
     <style>
-pre {color:rgba(255, 255, 255, 0.904)}
-pre {font-family: Sans-serif}
-pre {font-size:20px}
-h2{color:rgba(255, 255, 255, 0.904)}
 p {color:rgba(255, 255, 255, 0.904)}
 p {font-family: Sans-serif}
 p {font-size:35px}
-p {text-align: center}
-p {margin: 2cap;}
-a {color:rgba(255, 255, 255, 0.904)}
-a {font-family: Sans-serif}
-a {font-size:20px}
-h1 {color:rgba(255, 255, 255, 0.904)}
-h1 {font-family: Sans-serif}
-h1 {font-size:50px}
+p {text-align: left}
 a {color:rgba(255, 255, 255, 0.904)}
 a {font-family: Sans-serif}
 a {font-size:35px}
-p {text-align: center}
-a {margin: 2cap;}
-li {font-size:35px}
-li {text-align: left}
-li {margin: 2cap;}
-li {color:rgba(255, 255, 255, 0.904)}
-li {font-family: Sans-serif}
-li {font-family: Sans-serif}
-a {
-    text-decoration: none; /* Removes the underline */
-  }
-.What 
-{
-    text-align: left;
-
-}
+h1 {color:rgba(255, 255, 255, 0.904)}
+h1 {font-family: Sans-serif}
+h1 {font-size:50px}
 body {
-    
     background-size: cover;
-        width: 100%;
-        min-height: 20cm;
+        width: 80%;
+        min-height: 40cm;
         margin: auto;
 
         background-position: center;
 
         background-repeat: no-repeat;
         background-attachment: fixed;
-  
-        padding: auto;
-        
-    }
-
-#Header
- {
-    padding:25px;
-    width: 100%;
-    text-align: center;
-  
+        backdrop-filter: blur(10px);
 }
-.help
-{
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: auto;
-    size: auto;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    gap: 50px;
 }
 .History:hover {
     box-shadow: 12px 12px 12px rgba(189, 189, 189, 0.945) inset,
     -10px -10px 10px grey inset;
-    transition: all .4s ease-in-out;
- -webkit-transition: all .4s ease-in-out;
-    font-size: auto;
+    transition: all .4s ease;
+ -webkit-transition: all .4s ease;
+    font-size: 30px;
+    backdrop-filter: blur(10px);
     -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
+  border-radius: 10px;
   display: block;
-  transition: all 0.5s ease-in-out;
-  max-width: auto;
-  border-radius: 5px;
 }
  .History a {
-  text-decoration: none;
+    text-decoration: none;
     color: inherit;
     display: flex;
     justify-content: center;
@@ -97,8 +58,7 @@ body {
     flex-direction: column;
     padding: 20px;
     text-align: center;
-    max-width: auto;
- }
+  }
   .History a
   {
     height: 200px;
@@ -107,15 +67,15 @@ body {
   {
     box-shadow: 12px 12px 12px rgba(189, 189, 189, 0.945) inset,
     -10px -10px 10px grey inset;
-    transition: all .4s ease-in-out;
- -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease;
+ -webkit-transition: all .4s ease;
+    font-size: 30px;
+    backdrop-filter: blur(10px);
     -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
+  border-radius: 10px;
   display: block;
-  transition: all 0.5s ease-in-out;
-  max-width: auto;
-  border-radius: 5px;
   
   }
   .Learn a {
@@ -127,7 +87,6 @@ body {
     flex-direction: column;
     padding: 20px;
     text-align: center;
-    max-width: auto;
   }
   .Learn a
   {
@@ -137,15 +96,16 @@ body {
   {
     box-shadow: 12px 12px 12px rgba(189, 189, 189, 0.945) inset,
     -10px -10px 10px grey inset;
-    transition: all .4s ease-in-out;
- -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease;
+ -webkit-transition: all .4s ease;
+    font-size: 30px;
+    backdrop-filter: blur(10px);
     -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
+  border-radius: 10px;
   display: block;
-  transition: all 0.5s ease-in-out;
-  max-width: auto;
-  border-radius: 5px;
+  
   }
   .Members a {
     text-decoration: none;
@@ -156,7 +116,6 @@ body {
     flex-direction: column;
     padding: 20px;
     text-align: center;
-    max-width: auto;
   }
   .Members a
   {
@@ -164,7 +123,7 @@ body {
   }
     </style>
 </head>
-<body background="14fd6549-fb3c-4ff5-989e-7dda36d16b8d.jpg" alt="cool" width="50px" height="50">
+<body background="Pleasebegood.jpg" alt="cool" width="50px" height="50">
 <h1>Members!</h1>
     <a href=https://www.facebook.com/Calvin.Nolasco.Malabon/><p>Calvin David M. Nolasco.</p></a>
 <a href=https://www.facebook.com/nicole.recana.96><p>Nicole O. Faye.</p></a>
@@ -174,11 +133,14 @@ body {
 <a href=https://www.facebook.com/naomie.louise.2024<p>Naomie Louise </p></a>
 
 <div class="grid-container">
-    <div class="History"><a href="https://calvinsti.github.io/History/History.Html"><p><strong>History of Java</strong></p></a></div>
-    <div class="Members"><a href="https://calvinsti.github.io/Group1Website/Group1.html"><p><strong>About Java</strong></p></a></div>
+    <div class="History"><a href="https://www.w3schools.com/java/"><p><strong>History of Java</strong></p></a></div>
+    <div class="Members"><a href="https://calvinsti.github.io/Test/EverythingAboutJava.html"><p><strong>About Java</strong></p></a></div>
     <div class="Learn"><a href="https://www.w3schools.com/java/"><p><strong>Learn Java</strong></p></a></div>  
   </div>
 
+    
+</body>
+</html>
     
 </body>
 </html>
